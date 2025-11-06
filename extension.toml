@@ -12,30 +12,30 @@ icon = "auggie.svg"
 
 [agent_servers.auggie.targets.darwin-aarch64]
 archive = "https://registry.npmjs.org/@augmentcode/auggie/-/auggie-0.7.0-prerelease.5.tgz"
-cmd = "./package/augment.mjs"
-args = ["--acp"]
+cmd = "node"
+args = ["./package/augment.mjs", "--acp"]
 env = { AUGMENT_DISABLE_AUTO_UPDATE = "1" }
 
 [agent_servers.auggie.targets.darwin-x86_64]
 archive = "https://registry.npmjs.org/@augmentcode/auggie/-/auggie-0.7.0-prerelease.5.tgz"
-cmd = "./package/augment.mjs"
-args = ["--acp"]
+cmd = "node"
+args = ["./package/augment.mjs", "--acp"]
 env = { AUGMENT_DISABLE_AUTO_UPDATE = "1" }
 
 [agent_servers.auggie.targets.linux-aarch64]
 archive = "https://registry.npmjs.org/@augmentcode/auggie/-/auggie-0.7.0-prerelease.5.tgz"
-cmd = "./package/augment.mjs"
-args = ["--acp"]
+cmd = "node"
+args = ["./package/augment.mjs", "--acp"]
 env = { AUGMENT_DISABLE_AUTO_UPDATE = "1" }
 
 [agent_servers.auggie.targets.linux-x86_64]
 archive = "https://registry.npmjs.org/@augmentcode/auggie/-/auggie-0.7.0-prerelease.5.tgz"
-cmd = "./package/augment.mjs"
-args = ["--acp"]
+cmd = "node"
+args = ["./package/augment.mjs", "--acp"]
 env = { AUGMENT_DISABLE_AUTO_UPDATE = "1" }
 
 [agent_servers.auggie.targets.windows-x86_64]
 archive = "https://registry.npmjs.org/@augmentcode/auggie/-/auggie-0.7.0-prerelease.5.tgz"
-cmd = "./package/augment.mjs"
-args = ["--acp"]
+cmd = "node"
+args = ["./package/augment.mjs", "--acp"]
 env = { AUGMENT_DISABLE_AUTO_UPDATE = "1" }
